@@ -32,6 +32,8 @@ def get_employee_todo_list_progress(employee_id):
 
 
 if __name__ == "__main__":
-    employee_id = sys.argv[1]
-
-    get_employee_todo_list_progress(employee_id)
+    try:
+        employee_id = sys.argv[1]
+        get_employee_todo_list_progress(employee_id)
+    except Exception as e:
+        pass
