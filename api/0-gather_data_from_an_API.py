@@ -31,6 +31,7 @@ def get_employee_todo_list_progress(employee_id):
             print('\t ' + todo['title'])
 
 
-employee_id = sys.argv[1]
+if __name__ == "__main__":
+    employee_id = sys.argv[1]
 
-get_employee_todo_list_progress(employee_id)
+    get_employee_todo_list_progress(employee_id)
