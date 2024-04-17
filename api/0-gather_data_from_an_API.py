@@ -22,7 +22,7 @@ def get_employee_todo_list_progress(employee_id):
     completed_tasks = len(
         [todo for todo in todos_data if todo['completed']])
 
-    str1 = f"f'Employee {employee_name} is done with tasks"
+    str1 = f"Employee {employee_name} is done with tasks"
     str2 = f"({completed_tasks}/{total_tasks}):"
     print(str1 + str2)
 
