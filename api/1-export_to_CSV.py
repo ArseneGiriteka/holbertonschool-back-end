@@ -2,9 +2,9 @@
 """This module gathers data from an API"""
 
 
+import csv
 import requests
 import sys
-import csv
 
 
 def get_user_todo_list_progress(user_id):
